@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Video-MovieRentalSystem", "Video-MovieRentalSystem\Video-MovieRentalSystem.csproj", "{AAE0A2EC-B551-47B0-B00D-39AB1CA4DAE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AAE0A2EC-B551-47B0-B00D-39AB1CA4DAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE0A2EC-B551-47B0-B00D-39AB1CA4DAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE0A2EC-B551-47B0-B00D-39AB1CA4DAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE0A2EC-B551-47B0-B00D-39AB1CA4DAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03AAA7D2-488C-4067-9E41-6C980D4B774E}
+	EndGlobalSection
+EndGlobal
