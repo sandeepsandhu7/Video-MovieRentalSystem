@@ -19,13 +19,14 @@ namespace Video_MovieRentalSystem
 
         private void btnUpdateMovie_Click(object sender, EventArgs e)
         {
-            int a, b;
-            if (!int.TryParse(txtYear.Text, out a) || !(int.TryParse(txtCopies.Text, out b)))
-            {
-                MessageBox.Show("Year and Copies must be a valid integer");
-            }
-            else
-            {
+            int a;
+            a = Convert.ToInt32(txtYear.Text);
+            //if (!int.TryParse(txtYear.Text, out a))
+            //{
+            //    MessageBox.Show("Year and Copies must be a valid integer");
+            //}
+            //else
+            //{
                 int rental = 0;
                 if ((DateTime.Now.Year - a) > 5)
                 {
@@ -39,7 +40,7 @@ namespace Video_MovieRentalSystem
                 database.editmovie(txtRating.Text, txtTitle.Text, txtYear.Text, txtCopies.Text, rental.ToString(), txtPlot.Text, txtGenre.Text, txtMovieID.Text);
                 MessageBox.Show("Movie Updated");
                 Dispose();
-            }
+            //}
         }
 
         private void btnDeleteMovie_Click(object sender, EventArgs e)

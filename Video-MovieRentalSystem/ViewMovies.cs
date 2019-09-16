@@ -29,9 +29,9 @@ namespace Video_MovieRentalSystem
             f2.txtTitle.Text = this.dataGridView1.CurrentRow.Cells[2].Value.ToString();
             f2.txtRating.Text = this.dataGridView1.CurrentRow.Cells[1].Value.ToString();
             f2.txtYear.Text = this.dataGridView1.CurrentRow.Cells[3].Value.ToString();
-            f2.txtCopies.Text = this.dataGridView1.CurrentRow.Cells[4].Value.ToString();
-            f2.txtPlot.Text = this.dataGridView1.CurrentRow.Cells[5].Value.ToString();
-            f2.txtGenre.Text = this.dataGridView1.CurrentRow.Cells[6].Value.ToString();
+            f2.txtCopies.Text = this.dataGridView1.CurrentRow.Cells[5].Value.ToString();
+            f2.txtPlot.Text = this.dataGridView1.CurrentRow.Cells[6].Value.ToString();
+            f2.txtGenre.Text = this.dataGridView1.CurrentRow.Cells[7].Value.ToString();
             f2.ShowDialog();
 
         }
